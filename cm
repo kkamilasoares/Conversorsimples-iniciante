@@ -1,0 +1,9 @@
+v = float(input('Quantos reais você tem na carteira?R$'))
+dolar = v / 5.15
+euro = v / 5.57
+peso = v / 0.13
+print('-'*50)
+print('Com o seu valor da carteira da pra comprar: {:.2f} dolar'.format(dolar))
+print('Com o seu valor da carteira da pra comprar: {:.2f} euros'.format(euro))
+print('Com o seu valor da carteira da pra comprar: {:.2f} pesos uruguaios'.format(peso))
+print('-' * 65)
